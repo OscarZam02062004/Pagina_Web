@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <title>Electronica</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link rel="stylesheet" href="css/mystyle.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Examen Electronica</a>
+        <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+            aria-expanded="false" aria-label="Toggle navigation"></button>
+        <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                </li>
+                <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                                    Primer parcial
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-start bg-dark" aria-labelledby="triggerId">
+                        <ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Telecomunicaciones">Telecomunicaciones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Analisis por nodos">Analisis de nodos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Corriente Alterna">Corriente alterna</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#Circuitos RLC">Circuitos RLC</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-bs-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                                    Segundo parcial
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-start bg-dark" aria-labelledby="triggerId">
+                        <ul>
+                            <li class="nav-item">
+                                <a class="nav-link" href="pages/segundoParcial.html">Home 2 Parcial</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#DiodosEquipo1">Diodos Equipo1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#DiodosEquipo2">Diodos Equipo2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#ApuntesDiodos">Apuntes de diodos circuito</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#AlgebraBooleana">Algebra Booleana y compuertas logicas</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </nav>
+  </header>
+  <main>
+ <section id="#DiodosEquipo1" class="container">
+    <div class="row pt-4">
+        <h1 class="pb-4">Diodos Equipo1</h1>
+        <h2 class="pb-4">Transistores JFET</h2>
+        <div>Es un dispositivo semiconductor unipolar de tres terminales, denominados puerta (representado con la G), drenador (D) y fuente (S).que puede ser usado como interruptor electrónicamente controlado, amplificador o resistencia controlada por voltaje, usa el campo eléctrico para controlar la forma y, por lo tanto, la conductividad de un canal que transporta un solo tipo de portador de carga.
+        </div>
+        <div>Sus principales aplicaciones están en la distribución de potencia para reactores nucleares o aplicaciones espaciales. Pueden usarse, no obstante, en otros campos, como aviación, aceleradores de partículas o equipos médicos de radiodiagnóstico o similares. 
+        </div>
+        <h2 class="pb-4">Ventajas</h2>
+        <div>Los FET son generalmente más fáciles de fabricar que los BJT ,son más estables a la temperatura que los BJT,reaccionan como resistencias variables controladas por voltaje para valores pequeños de voltaje de drenaje a fuente.
+            Los FET de potencia pueden disipar la alta potencia y pueden cambiar corrientes grandes.
+        </div>
+        <h2 class="pb-4">Desventajas</h2>
+        <div>
+            <div>   
+            Los amplificadores FET generalmente exhiben una respuesta de frecuencia pobre debido a la alta capacitancia de entrada.
+            pueden dañarse en el manejo debido a la electricidad estática.
+            Algunos tipos de FET exhiben una linealidad pobre.
+            </div>
+        </div>
+        <h2 class="pb-4">Transistores Mosfed</h2>
+        <div>
+            Es un tipo de transistor que tiene 3 patillas conduce corriente eléctrica entre 2 de sus patillas cuando aplicamos tensión en la otra patilla, llamada Gate.
+            Los mosfet se construyen sobre un semiconductor (tipo N o P) que se llama sustrato se funden el sumidero y el drenaje (entrada y salida) que es un semiconductor contrario al semiconductor usado para el sustrato
+            recubriendo este bloque se coloca una capa de óxido metálico aislante que hace de dieléctrico o aislante entre la fuente y el sumidero.
+            Tenemos 4 partes pero solo 3 patillas, ya que el sustrato está unido siempre a la puerta (gate), formando una única patilla del transistor S y D = semiconductor
+            A un lado está la patilla llamada sumidero o fuente (S) al otro lado la patilla llamada Drenaje (D), drenador o salida entre estos dos terminales pasa la corriente cuando activamos G por medio de tensión.
+        </div>
+        <h2 class="pb-4">Estructura y funcionamiento de diodos</h2>
+        <div>
+        Un diodo es un componente electrónico de dos terminales que permite la circulación de la corriente eléctrica a través de él en un solo sentido, ​ bloqueando el paso si la corriente circula en sentido contrario, no solo sirve para la circulación de corriente eléctrica sino que este la controla y resiste.
+        Estructura y funcionamiento del diodo formado por la unión de dos semiconductores, uno de tipo P y otro de tipo N. El diodo actúa como una válvula de corriente eléctrica, permitiendo la circulación de corriente en un sentido y limitandola en sentido contrario
+        </div>
+        <h1 class="pb-4">Diodos Equipo2</h1>
+        <h2 class="pb-4">Curva Caracteristica de un diodo</h2>
+        <div>
+            La curva característica de un diodo (I-V) consta de dos regiones:por debajo de cierta diferencial de potencial se comporta como uncircuito abierto (no conduce), y por encima de ella como uncircuito cerrado con una resistencia electrica muy pequeña.Debido a este comportamiento, se les suele denominarrectificadores, ya que son dispositivos capaces de suprimir la partenegativa de cualquier señal, como paso inicial para convertir unacorriente alterna en coriente continua.
+        </div>
+        <h2 class="pb-4">Diodo rectificador</h2>
+        <div>
+            Un diodo rectificador es un semiconductor de dos terminales que permite elpaso de la corriente en una sola dirección el diodo rectificador es capaz de conducir valores de corriente que varíandesde varios miliamperios hasta unos pocos kiloamperios y voltajes hastaunos pocos kilovoltios la simbología del diodo rectificador se muestra a continuación, la punta de laflecha apunta en la dirección del flujo de corriente convencional.
+        </div>
+        <h2 class="pb-4">Para que sirve?</h2>
+        <div>
+            Se utilizan en las fuentes de alimentaciónpara convertir la corriente alterna encorriente continua, un proceso llamadorectificación. También se utilizan en otroscircuitos en los que debe pasar una grancorriente a través del diodo.
+        </div>
+        <h2 class="pb-4">Señales Bipolares</h2>
+        <div>
+            Los circuitos de rectificación se utilizan paraconvertir señales alternas (AC) en señalesunipolares o directas (DC). Si deseas rectificarseñales bipolares (que oscilan tanto en valorespositivos como negativos) y convertirlas enseñales unipolares, puedes emplear diferentestipos de circuitos de rectificación, como elrectificador de onda completa con centro-tap(Puente de Graetz), el rectificador de ondacompleta sin centro-tap, o el rectificador demedia onda.
+        </div>
+        <h2 class="pb-4">Fuentes de alimetación</h2>
+        <div>
+            La fuente de alimentación o fuente de potencia es el dispositivo que convierte la corriente alterna(CA), en una o varias corrientes continuas (CC), que alimentanlos distintos circuitos del aparato electrónico al que se conecta ( computadora televisor,impresora,router, etc).
+        </div>
+        <h2 class="pb-4">Diodo de zener</h2>
+        <div>
+            Es un diodo de silicio fuertemente dopado que se ha construido para que funcione en las zonas deruptura conocidos tambien como diodos de avalancha o de ruptura son la parte esencial de losreguladores de tension casi constantes con independecia de que se presenten grandes variaciones detension de ted de la resistencia de carga y temperatura,son diseñados para mantener un voltajeconstante en sus terminales este debe ser polarizado inversamente con un voltaje arriba de su ruptura.
+            Con un diodo zener podemos conseguir que un componente siemprellegue a la misma tension de forma casi exacta,otro uso que se le puedellegar a dar es como un elemento de protección de un circuito para quenunca sobrepase una determinada carga.
+            Por estas razones, los diodos son buenos candidatos para construirreguladores de voltaje simples o imitadores de voltaje su voltaje maximoes de 5V la carga puede variar.
+        </div>
+        
+
+
+        
+
+
+
+        
+    </div>
+ </section>
+        
+    </main>
+    <footer>
+        <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
